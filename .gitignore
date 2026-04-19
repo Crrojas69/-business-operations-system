@@ -1,0 +1,38 @@
+# Data (sensitive business information)
+*.xlsx
+*.xls
+*.csv
+!sample_data/
+
+# Power BI
+*.pbit
+*.pbix
+.pbix_backup/
+.manifest
+
+# Power Apps
+.vs/
+.vscode/
+*.msapp.bak
+
+# System files
+.DS_Store
+Thumbs.db
+.env
+.env.local
+*.log
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary
+~$*.xlsx
+*temp*
+/tmp/
+
+# Archives (deployment)
+*.zip
+*.rar
